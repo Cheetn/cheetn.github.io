@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Constants
-PROJECT_ID = "cheetn"  # Replace with your project ID
-PAT = "your_pat_token"          # Replace with your PAT
+PROJECT_ID = "proj_6ee143e51668b4657fd7a25d"  # Replace with your project ID
+PAT = "jamai_pat_f1532659bd4821c89f9b779b80eb59beab393f75bc51efaa"          # Replace with your PAT
 TABLE_TYPE = p.TableType.chat
 OPENER = "Hello! How can I help you today?"
 
@@ -22,7 +22,7 @@ def create_new_chat():
     try:
         jamai.table.duplicate_table(
             table_type=TABLE_TYPE,
-            table_id_src="example_agent",  # Replace with your agent ID
+            table_id_src="shurian",  # Replace with your agent ID
             table_id_dst=new_table_id,
             include_data=True,
             create_as_child=True
