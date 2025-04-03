@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elderly Learning Technology</title>
+    <link rel="stylesheet" href="styled.css">
     <link rel="stylesheet" href="mainstyle.css">
+    
+
 </head>
 <body>
     <header>Elderly Learning Technology</header>
@@ -22,5 +25,23 @@
         <p>Join us in making technology accessible to everyone!</p>
     </div>
     <div class="footer">&copy; 2025 Chee Tian Ning</div>
+
+        <!-- Floating Chat Icon -->
+        <div id="chatbot-icon">💬</div>
+    <div id="chatbot-container" class="hidden">
+        <div id="chatbot-header">
+          <span>Chatbot</span>
+          <button id="close-btn">&times;</button>
+        </div>
+        <div id="chatbot-body">
+          <div id="chatbot-messages"></div>
+        </div>
+        <div id="chatbot-input-container">
+          <input type="text" id="chatbot-input" placeholder="Type a message..." />
+          <button id="send-btn">Send</button>
+        </div>
+      </div>
+  
+      <script src="script.js"></script>
 </body>
 </html>
