@@ -47,14 +47,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   
     async function getBotResponse(userMessage) {
-<<<<<<< HEAD
       const apiKey = "api-here"; // Replace with your OpenAI API key
       const apiUrl = "https://api.openai.com/v1/chat/completions"; 
-=======
-      const apiKey = "your-api-key"; // Replace with your OpenAI API key
-      const apiUrl = "https://api.openai.com/v1/chat/completions";
->>>>>>> parent of 33211e1 (Chatbot push)
-  
+
       try {
         const response = await fetch(apiUrl, {
           method: "POST",
