@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   
     async function getBotResponse(userMessage) {
-      const apiKey = "replace"; // Replace with your OpenAI API key
+      const apiKey = "HEREEEEE"; // Replace with your OpenAI API key
       const apiUrl = "https://api.openai.com/v1/chat/completions"; 
 
       try {
