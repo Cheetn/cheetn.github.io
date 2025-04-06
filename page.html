@@ -3,92 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image and Text Layout</title>
-    <link rel="stylesheet" href="styled.css">
+    <title>Basic Computing Skills for Seniors</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #4682b4;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 32px;
         }
         .container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
             max-width: 900px;
-            margin: 50px auto;
-            background: white;
+            margin: 30px auto;
             padding: 20px;
+            background-color: white;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .image-section {
-            flex: 1;
-            padding: 20px;
-        }
-        .image-section img {
-            width: 100%;
-            border-radius: 10px;
-        }
-        .text-section {
-            flex: 1;
-            padding: 20px;
-            text-align: center;
-        }
         h2 {
-            color: #333;
+            color: #2e5984;
+            margin-top: 20px;
         }
-        p {
-            color: #666;
+        p, li {
             font-size: 18px;
+            line-height: 1.6;
         }
-        .start-button {
-            display: inline-block;
-            margin-top: 10px;
-            padding: 10px 20px;
-            background-color: #28a745;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 18px;
+        ul {
+            padding-left: 20px;
+            text-align: left;
         }
         .footer {
             text-align: center;
-            padding: 10px;
-            background: #007bff;
+            padding: 15px;
+            background-color: #4682b4;
             color: white;
-            margin-top: 20px;
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
+    <header>Basic Computing Skills for Seniors</header>
+
     <div class="container">
-        <div class="image-section">
-            <img src="https://via.placeholder.com/400" alt="Example Image"> // image not found
-        </div>
-        <div class="text-section">
-            <h2>Understanding Technology</h2>
-            <p>Technology can be easy to learn with the right guidance. This section explains how to navigate the digital world step by step.</p>
-            <a href="index.html" class="start-button">Start</a>
-        </div>
+        <h2>Understanding a Computer</h2>
+        <p>A computer is an electronic device that allows you to type documents, send email, browse the internet, and more. It includes a screen (monitor), a keyboard, and a mouse.</p>
+
+        <h2>Turning On and Off</h2>
+        <p>To turn on a computer, press the power button. It may take a few moments to load. To turn it off, click the "Start" menu, then choose "Shut Down".</p>
+
+        <h2>Using a Mouse</h2>
+        <p>The mouse helps you move a pointer on the screen. Clicking means pressing the left button on the mouse once. Double-clicking means pressing it twice quickly. Right-clicking shows more options.</p>
+
+        <h2>Using a Keyboard</h2>
+        <p>The keyboard allows you to type letters, numbers, and symbols. Each key represents a character. The "Enter" key is used to move to the next line or submit something.</p>
+
+        <h2>Opening Programs</h2>
+        <p>Programs like web browsers (Google Chrome), word processors (Microsoft Word), and games can be opened by clicking their icons on the desktop or start menu.</p>
+
+        <h2>Going Online</h2>
+        <p>To use the internet, click on a browser like Chrome or Edge. You can type what you're looking for into the search bar and press Enter to find information.</p>
+
+        <h2>Typing and Saving Documents</h2>
+        <p>Open a program like Notepad or Word. Start typing using your keyboard. To save your work, click on "File" and then "Save". Choose a name and a place to store your file.</p>
+
+        <h2>Using Email</h2>
+        <p>You can send and receive messages with email. Open a browser, go to your email provider (like Gmail), and log in. To write a message, click "Compose", type the address, subject, and message, then click "Send".</p>
+
+        <h2>Practice Tips</h2>
+        <ul>
+            <li>Try typing your name and saving the file.</li>
+            <li>Use the mouse to click on different icons.</li>
+            <li>Ask a friend or family member to help you try sending an email.</li>
+        </ul>
+
+        <p>With practice, using a computer becomes easier every day!</p>
     </div>
-    <div id="chatbot-icon">💬</div>
-    <div id="chatbot-container" class="hidden">
-        <div id="chatbot-header">
-          <span>Chatbot</span>
-          <button id="close-btn">&times;</button>
-        </div>
-        <div id="chatbot-body">
-          <div id="chatbot-messages"></div>
-        </div>
-        <div id="chatbot-input-container">
-          <input type="text" id="chatbot-input" placeholder="Type a message..." />
-          <button id="send-btn">Send</button>
-        </div>
-      </div>
-  
-      <script src="script.js"></script>
-    <div class="footer">&copy; 2025 Elderly Tech Guide</div>
+    <a href="index.html" class="back-button">Back</a>
+
+    <div class="footer">&copy; 2025 Chee Tian Ning</div>
 </body>
 </html>
